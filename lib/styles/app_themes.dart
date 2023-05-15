@@ -12,8 +12,7 @@ class AppThemes {
       backgroundColor: primaryLightColor,
     ),
     textTheme: TextTheme(
-      displayLarge: GoogleFonts.amiri(
-          fontSize: 25, fontWeight: FontWeight.bold, color: primaryLightColor),
+      displayLarge:bottomSheet(),
       bodySmall: robotoSmall(),
       bodyMedium: popinsMedium(),
       bodyLarge: popinsLarge(),

@@ -4,6 +4,13 @@ import 'package:google_fonts/google_fonts.dart';
 
 import 'app_colors.dart';
 
+TextStyle bottomSheet()=> GoogleFonts.poppins(
+    fontSize: 18, fontWeight: FontWeight.bold, color: bottomSheetLight);
+
+TextStyle bottomSheet2()=> GoogleFonts.poppins(
+    fontSize: 18, fontWeight: FontWeight.bold, color: primaryLightColor);
+
+
 TextStyle robotoSmall()=> GoogleFonts.roboto(
     fontSize: 12, fontWeight: FontWeight.bold, color: Colors.black);
 
